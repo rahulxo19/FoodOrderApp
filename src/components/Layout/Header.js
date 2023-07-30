@@ -10,7 +10,7 @@ function Header() {
         <h1>ReactMeals</h1>
         <HeaderCartButton />
       </header>
-      <div>
+      <div className={classes["main-image"]}>
         <img src={mealsImage} alt="A table full of delicious food!" />
       </div>
     </>
